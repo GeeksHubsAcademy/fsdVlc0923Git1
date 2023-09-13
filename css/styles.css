@@ -18,7 +18,7 @@ body {
     height: 20em;
     width: 20em;
 
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
 
     display: flex;
     justify-content: center;
@@ -37,7 +37,7 @@ body {
     flex-direction: row;
 }
 
-#hijo1 {
+/* #hijo1 {
 
     background-color: green;
 }
@@ -45,7 +45,7 @@ body {
 #hijo2 {
 
     background-color: red;
-}
+} */
 
 .nieto {
 
@@ -56,6 +56,16 @@ body {
 
 .negro {
     background-color: black;
+    transition: 2s;
+}
+
+.negro:hover {
+
+    background-color: firebrick;
+    transition: 2s;
+
+    border-radius: 50%;
+    margin-left: 3em;
 }
 
 .blanco {
